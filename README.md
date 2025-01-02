@@ -45,7 +45,7 @@ pip install -r requirements.txt
 #### Run the Backend Server
 Start the FastAPI server:
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 ### 3. Database Setup
