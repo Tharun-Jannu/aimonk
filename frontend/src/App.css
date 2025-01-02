@@ -1,0 +1,18 @@
+.tag-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tag-header {
+  display: flex;
+  align-items: center;
+  background-color: #077aec;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.tag-body {
+  margin-top: 10px;
+}
