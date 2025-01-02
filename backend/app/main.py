@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Database setup
-DATABASE_URL = "postgresql://postgres:Tharun@localhost:5432/AIMonk"
+DATABASE_URL = "postgresql://username:password@hostname:5432/dbname"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
